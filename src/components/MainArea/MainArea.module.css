@@ -1,0 +1,15 @@
+.mainarea {
+  display: flex;
+  height: calc(100vh - 35px);
+}
+
+.leftarea {
+  width: 17rem;
+  background-color: var(--mantine-color-dark-5);
+  border-right: 1px solid var(--app-shell-border-color);
+}
+
+.rightarea {
+  flex: 1;
+  background-color: var(--mantine-color-dark-6);
+}
